@@ -1,0 +1,71 @@
+.container{
+    width:650px;
+    margin:20px auto;
+    border: 2px solid rgb(98, 151, 143);
+    border-radius: 4px;
+    height:400px;
+    background: skyblue;
+}
+h2{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.result{
+    column-count: 3;
+    column-gap: 0px;
+    width:500px;
+    margin:20px auto;
+    text-align: center;
+}
+
+.player{
+    height:50px;
+    background-color: aquamarine;
+}
+
+.draw{
+    height:50px;
+    background-color: chocolate;
+}
+.computer{    
+    height:50px;
+    background-color: darkgoldenrod
+}
+.makeSelection{
+    text-align:center;
+}
+.optionChoose{
+    column-count: 3;
+    column-gap: 20px;
+    width:500px;
+    margin:20px auto 5px;
+    text-align: center;
+}
+
+.optionChoose div{
+    border:2px dashed rgb(98, 151, 143);
+}
+.optionLabel{
+    column-count: 3;
+    column-gap: 20px;
+    width:500px;
+    margin:0px auto;
+    text-align: center;
+}
+
+.option:hover{
+    background: green;    
+}
+
+.restart{
+    width:50px;
+    margin:10px auto;
+}
+
+.rbutton{
+    background: green;
+    padding: 5px 10px;
+    color: #fff;
+}
